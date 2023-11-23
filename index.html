@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
     <title>Traductor Morse</title>
 </head>
 <body>
-    <div class="container">
-        <h1>Traductor de Texto a Código Morse</h1>
-        <label for="textoInput">Texto: </label>
-        <input type="text" id="textoInput" placeholder="Ingresa tu texto">
-        <button onclick="traducirAMorse()">Traducir</button>
-        <p id="resultado"></p>
-    </div>
-    <script src="script.js"></script>
+	<div class="container">
+        <h1>Traductor de Texto a Código Morse y Viceversa</h1>
+    	<label for="textoInput">Texto: </label>
+    	<input type="text" id="textoInput" placeholder="Ingresa tu texto o Morse">
+    	<button onclick="traducirAMorse()">Traducir a Morse</button>
+    	<button onclick="traducirDeMorse()">Traducir a Texto</button>
+    	<p id="resultado"></p>
+	</div>
+	<script src="script.js"></script>
+	<script src="script2.js"></script>
 </body>
 </html>
